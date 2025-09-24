@@ -46,8 +46,4 @@ while attempts > 0:
         print('\n You\'ve run out of attempts! the word was ' + word)
     
     forrige = word
-'''
-    if '_' not in guessedWord:
-        print('\nCongratulations!! You guessed the word: ' + word)
-        break
-    '''
+
