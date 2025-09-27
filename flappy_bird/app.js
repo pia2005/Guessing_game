@@ -33,6 +33,7 @@ let cursors;
 function create () {
     // setter top venstre hjørne til å være 0,0 posisjonen
     const background = this.add.image(0, 0, 'background').setOrigin(0, 0);
+
     const roads = this.physics.add.staticGroup();
 
     const topColumns = this.physics.add.staticGroup({
